@@ -7,4 +7,8 @@ print ("Esse é o curso de lógica de programação")
 # do teclado, sendo que o usuário irá digitar
 # A sintaxe do comando é input("mensagem")
 nome = input ("Digite o seu nome: ")
-print("Olá, ",nome)
+idade = int(input("Digite a sua idade: "))
+print("Olá, ", nome, "! A sua idade é ", idade)
+# O comando type() analisa o tipo da informação que está entre os parênteses
+print("O tipo da variável nome é" , type(nome))
+print("O tipo da variável idade é", type(idade))
