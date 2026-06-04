@@ -1,5 +1,4 @@
-numeros = ["1","2","3","4","5"]
-print(numeros[1])
-print()
-numeros = int(input("Escolha um número:"))
-print("O número é ",numeros)
+vetor = []
+for i in range (0,5) :
+    numero = input("Escreva um número: ")
+    vetor.append(numero)

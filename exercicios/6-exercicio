@@ -1,8 +1,0 @@
-alunos = []
-for i in range (0,10):
-    print(f"===================== ALUNO {i+1}====================================")
-    nome = input("Digite o nome do aluno: ")
-    aluno = {
-        "nome" :nome,
-        "notas" :[],
-    }
