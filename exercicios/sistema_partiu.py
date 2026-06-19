@@ -1,0 +1,6 @@
+print("_______ Partiu! _______")
+print("Bem-vindo ao sistema de roles perfeito para você!")
+print("Vamos começar com algumas informações necessesárias sobre seu role")
+nome_do_role = input("Qual o nome do role? ")
+custo_total = float(input("Qual o custo total do role? "))
+lista_vip = input("Qual é sua lista vip pro role? ")
